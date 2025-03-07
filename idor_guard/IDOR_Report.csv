@@ -1,0 +1,7 @@
+IDOR Detected,Recommendation
+"[!] Found user_id inside form: Unnamed Form, Parent Div: updatePasswordForm","Review form inputs: Ensure sensitive identifiers are not exposed unnecessarily in forms. Consider using session-based authentication."
+"[!] Possible IDOR detected: http://test2214.sytes.net/dashboard.php?user_id=2","Implement proper access control: Ensure users can only access their own data. Use Role-Based Access Control (RBAC)."
+"[!] Possible IDOR detected: http://test2214.sytes.net/dashboard.php?user_id=3","Implement proper access control: Ensure users can only access their own data. Use Role-Based Access Control (RBAC)."
+"[!] Possible API IDOR detected: http://test2214.sytes.net/api/profile.php?user_id=1","Implement proper access control: Ensure users can only access their own data. Use Role-Based Access Control (RBAC)."
+"[!] Possible API IDOR detected: http://test2214.sytes.net/api/profile.php?user_id=2","Implement proper access control: Ensure users can only access their own data. Use Role-Based Access Control (RBAC)."
+"[!] Possible API IDOR detected: http://test2214.sytes.net/api/profile.php?user_id=3","Implement proper access control: Ensure users can only access their own data. Use Role-Based Access Control (RBAC)."
